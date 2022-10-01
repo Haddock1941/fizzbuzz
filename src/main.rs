@@ -65,7 +65,6 @@ mod tests {
     #[test]
     // test more and larger numbers for FizzBuzz
     fn test_larger_fizzbuzz() {
-        assert_eq!(fizzbuzz(15), "FizzBuzz");
         assert_eq!(fizzbuzz(30), "FizzBuzz");
         assert_eq!(fizzbuzz(555), "FizzBuzz");
         assert_eq!(fizzbuzz(164370), "FizzBuzz");
